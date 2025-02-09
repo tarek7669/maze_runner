@@ -1,0 +1,5 @@
+[console_scripts]
+go_to_goal = project_package.go_to_goal:main
+goal_navigator = project_package.goal_navigator:main
+project_node = project_package.project_node:main
+

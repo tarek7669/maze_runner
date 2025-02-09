@@ -1,0 +1,26 @@
+[8.022s] Invoking command in '/home/user/turtlebot3_ws/src/project_package': PYTHONPATH=/home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_package build --build-base /home/user/turtlebot3_ws/build/project_package/build install --prefix /home/user/turtlebot3_ws/install/project_package --record /home/user/turtlebot3_ws/build/project_package/install.log --single-version-externally-managed
+[10.120s] running egg_info
+[10.121s] writing ../../build/project_package/project_package.egg-info/PKG-INFO
+[10.121s] writing dependency_links to ../../build/project_package/project_package.egg-info/dependency_links.txt
+[10.122s] writing entry points to ../../build/project_package/project_package.egg-info/entry_points.txt
+[10.122s] writing requirements to ../../build/project_package/project_package.egg-info/requires.txt
+[10.122s] writing top-level names to ../../build/project_package/project_package.egg-info/top_level.txt
+[10.126s] reading manifest file '../../build/project_package/project_package.egg-info/SOURCES.txt'
+[10.192s] writing manifest file '../../build/project_package/project_package.egg-info/SOURCES.txt'
+[10.195s] running build
+[10.198s] running build_py
+[10.198s] running install
+[10.199s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.199s]   warnings.warn(
+[10.199s] running install_lib
+[10.223s] running install_data
+[10.226s] copying package.xml -> /home/user/turtlebot3_ws/install/project_package/share/project_package
+[10.226s] running install_egg_info
+[10.227s] removing '/home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages/project_package-0.0.0-py3.10.egg-info' (and everything under it)
+[10.227s] Copying ../../build/project_package/project_package.egg-info to /home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages/project_package-0.0.0-py3.10.egg-info
+[10.289s] running install_scripts
+[10.520s] Installing go_to_goal script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[10.520s] Installing goal_navigator script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[10.520s] Installing project_node script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[10.520s] writing list of installed files to '/home/user/turtlebot3_ws/build/project_package/install.log'
+[10.793s] Invoked command in '/home/user/turtlebot3_ws/src/project_package' returned '0': PYTHONPATH=/home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_package build --build-base /home/user/turtlebot3_ws/build/project_package/build install --prefix /home/user/turtlebot3_ws/install/project_package --record /home/user/turtlebot3_ws/build/project_package/install.log --single-version-externally-managed

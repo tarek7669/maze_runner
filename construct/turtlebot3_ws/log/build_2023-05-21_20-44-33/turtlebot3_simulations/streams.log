@@ -1,0 +1,21 @@
+[0.405s] Invoking command in '/home/user/turtlebot3_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/project_package:/home/user/ros2_ws/install/my_package:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/turtlebot3_ws/build/turtlebot3_simulations -- -j8 -l8
+[1.101s] Invoked command in '/home/user/turtlebot3_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/project_package:/home/user/ros2_ws/install/my_package:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/turtlebot3_ws/build/turtlebot3_simulations -- -j8 -l8
+[1.916s] Invoking command in '/home/user/turtlebot3_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/project_package:/home/user/ros2_ws/install/my_package:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/turtlebot3_ws/build/turtlebot3_simulations
+[2.100s] -- Install configuration: ""
+[2.102s] -- Execute custom install script
+[2.102s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[2.102s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[2.103s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[2.103s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[2.104s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[2.104s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[2.105s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[2.105s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[2.106s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[2.106s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[2.106s] -- Symlinking: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[2.190s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[2.190s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[2.191s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[2.193s] -- Up-to-date symlink: /home/user/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[2.205s] Invoked command in '/home/user/turtlebot3_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/project_package:/home/user/ros2_ws/install/my_package:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/turtlebot3_ws/build/turtlebot3_simulations

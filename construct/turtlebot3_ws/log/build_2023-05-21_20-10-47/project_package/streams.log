@@ -1,0 +1,25 @@
+[8.140s] Invoking command in '/home/user/turtlebot3_ws/build/project_package': PYTHONPATH=/home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/turtlebot3_ws/install/project_package --editable --build-directory /home/user/turtlebot3_ws/build/project_package/build --no-deps install_data --install-dir /home/user/turtlebot3_ws/install/project_package
+[10.528s] running develop
+[10.528s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.528s]   warnings.warn(
+[10.542s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.543s]   warnings.warn(
+[11.233s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[11.234s]   warnings.warn(
+[12.340s] running egg_info
+[12.342s] writing project_package.egg-info/PKG-INFO
+[12.342s] writing dependency_links to project_package.egg-info/dependency_links.txt
+[12.343s] writing entry points to project_package.egg-info/entry_points.txt
+[12.343s] writing requirements to project_package.egg-info/requires.txt
+[12.344s] writing top-level names to project_package.egg-info/top_level.txt
+[12.359s] reading manifest file 'project_package.egg-info/SOURCES.txt'
+[12.397s] writing manifest file 'project_package.egg-info/SOURCES.txt'
+[12.415s] running build_ext
+[12.415s] Creating /home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages/project-package.egg-link (link to .)
+[12.429s] Installing go_to_goal script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[12.430s] Installing goal_navigator script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[12.430s] Installing project_node script to /home/user/turtlebot3_ws/install/project_package/lib/project_package
+[12.430s] 
+[12.430s] Installed /home/user/turtlebot3_ws/build/project_package
+[12.430s] running install_data
+[13.401s] Invoked command in '/home/user/turtlebot3_ws/build/project_package' returned '0': PYTHONPATH=/home/user/turtlebot3_ws/install/project_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/turtlebot3_ws/install/project_package --editable --build-directory /home/user/turtlebot3_ws/build/project_package/build --no-deps install_data --install-dir /home/user/turtlebot3_ws/install/project_package
