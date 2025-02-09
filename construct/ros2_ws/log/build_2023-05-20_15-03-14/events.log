@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000591] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098609] (-) TimerEvent: {}
+[0.199525] (-) TimerEvent: {}
+[0.306510] (-) TimerEvent: {}
+[0.407738] (-) TimerEvent: {}
+[0.519056] (-) TimerEvent: {}
+[0.620482] (-) TimerEvent: {}
+[0.720918] (-) TimerEvent: {}
+[0.823086] (-) TimerEvent: {}
+[0.923776] (-) TimerEvent: {}
+[1.024208] (-) TimerEvent: {}
+[1.186527] (-) TimerEvent: {}
+[1.287025] (-) TimerEvent: {}
+[1.387492] (-) TimerEvent: {}
+[1.487981] (-) TimerEvent: {}
+[1.588360] (-) TimerEvent: {}
+[1.690803] (-) TimerEvent: {}
+[1.800506] (-) TimerEvent: {}
+[1.909142] (-) TimerEvent: {}
+[2.010058] (-) TimerEvent: {}
+[2.112124] (-) TimerEvent: {}
+[2.216843] (-) TimerEvent: {}
+[2.318311] (-) TimerEvent: {}
+[2.419492] (-) TimerEvent: {}
+[2.520619] (-) TimerEvent: {}
+[2.622098] (-) TimerEvent: {}
+[2.722912] (-) TimerEvent: {}
+[2.824149] (-) TimerEvent: {}
+[2.928301] (-) TimerEvent: {}
+[3.028715] (-) TimerEvent: {}
+[3.186522] (-) TimerEvent: {}
+[3.289718] (-) TimerEvent: {}
+[3.390496] (-) TimerEvent: {}
+[3.490881] (-) TimerEvent: {}
+[3.591490] (-) TimerEvent: {}
+[3.702506] (-) TimerEvent: {}
+[3.802938] (-) TimerEvent: {}
+[3.986724] (-) TimerEvent: {}
+[4.087339] (-) TimerEvent: {}
+[4.187866] (-) TimerEvent: {}
+[4.288246] (-) TimerEvent: {}
+[4.398506] (-) TimerEvent: {}
+[4.502287] (-) TimerEvent: {}
+[4.614478] (-) TimerEvent: {}
+[4.722468] (-) TimerEvent: {}
+[4.886536] (-) TimerEvent: {}
+[4.990215] (-) TimerEvent: {}
+[5.089322] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/user/ros2_ws/install/my_package', '--editable', '--build-directory', '/home/user/ros2_ws/build/my_package/build', '--no-deps', 'install_data', '--install-dir', '/home/user/ros2_ws/install/my_package'], 'cwd': '/home/user/ros2_ws/build/my_package', 'env': {'ROS_VERSION': '2', 'GAZEBO_MASTER_URI': 'http://1_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'PWD': '/home/user/ros2_ws/build/my_package', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node:/home/user/ros2_ws/install/my_package:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/home/user/turtlebot3_ws/install/turtlebot3_simulations:/home/user/turtlebot3_ws/install/turtlebot3_gazebo:/home/user/turtlebot3_ws/install/turtlebot3_fake_node', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/turtlebot3_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/user/ros2_ws/build/my_package:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'TURTLEBOT3_MODEL': 'waffle', 'ROS_MASTER_URI': 'http://1_xterm:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '655157', 'SLOT_PREFIX': 'cd082235-b5c3-427d-8572-7b460cb8e433', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25120', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[5.090836] (-) TimerEvent: {}
+[5.194722] (-) TimerEvent: {}
+[5.301989] (-) TimerEvent: {}
+[5.424946] (-) TimerEvent: {}
+[5.525598] (-) TimerEvent: {}
+[5.627868] (-) TimerEvent: {}
+[5.729992] (-) TimerEvent: {}
+[5.886551] (-) TimerEvent: {}
+[5.986981] (-) TimerEvent: {}
+[6.087360] (-) TimerEvent: {}
+[6.187715] (-) TimerEvent: {}
+[6.288366] (-) TimerEvent: {}
+[6.388995] (-) TimerEvent: {}
+[6.490244] (-) TimerEvent: {}
+[6.591808] (-) TimerEvent: {}
+[6.693420] (-) TimerEvent: {}
+[6.794467] (-) TimerEvent: {}
+[6.896009] (-) TimerEvent: {}
+[6.996420] (-) TimerEvent: {}
+[7.097949] (-) TimerEvent: {}
+[7.198391] (-) TimerEvent: {}
+[7.298872] (-) TimerEvent: {}
+[7.504310] (-) TimerEvent: {}
+[7.608873] (-) TimerEvent: {}
+[7.610207] (my_package) StdoutLine: {'line': b'running develop\n'}
+[7.612814] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.613305] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.613997] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.614227] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.708975] (-) TimerEvent: {}
+[7.991133] (-) TimerEvent: {}
+[8.092002] (-) TimerEvent: {}
+[8.192541] (-) TimerEvent: {}
+[8.286610] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[8.287855] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.293146] (-) TimerEvent: {}
+[8.393692] (-) TimerEvent: {}
+[8.494392] (-) TimerEvent: {}
+[8.595829] (-) TimerEvent: {}
+[8.701293] (-) TimerEvent: {}
+[8.806477] (-) TimerEvent: {}
+[8.907032] (-) TimerEvent: {}
+[9.008393] (-) TimerEvent: {}
+[9.112243] (-) TimerEvent: {}
+[9.212660] (-) TimerEvent: {}
+[9.314721] (-) TimerEvent: {}
+[9.321021] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[9.321397] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[9.386607] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[9.414874] (-) TimerEvent: {}
+[9.487157] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[9.488149] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[9.488437] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[9.493005] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[9.494762] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[9.499671] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[9.499897] (my_package) StdoutLine: {'line': b'Creating /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)\n'}
+[9.506206] (my_package) StdoutLine: {'line': b'Installing control_turtle script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.506601] (my_package) StdoutLine: {'line': b'Installing draw_circle script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.506842] (my_package) StdoutLine: {'line': b'Installing first_node script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.507321] (my_package) StdoutLine: {'line': b'Installing go_to_goal script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.513540] (my_package) StdoutLine: {'line': b'Installing pose_subscriber script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.513896] (my_package) StdoutLine: {'line': b'Installing project_node script to /home/user/ros2_ws/install/my_package/lib/my_package\n'}
+[9.514543] (my_package) StdoutLine: {'line': b'\n'}
+[9.514760] (my_package) StdoutLine: {'line': b'Installed /home/user/ros2_ws/build/my_package\n'}
+[9.514951] (-) TimerEvent: {}
+[9.515674] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[9.615853] (-) TimerEvent: {}
+[9.717411] (-) TimerEvent: {}
+[9.793037] (my_package) CommandEnded: {'returncode': 0}
+[9.817546] (-) TimerEvent: {}
+[9.918625] (-) TimerEvent: {}
+[10.021481] (-) TimerEvent: {}
+[10.122585] (-) TimerEvent: {}
+[10.223097] (-) TimerEvent: {}
+[10.388832] (-) TimerEvent: {}
+[10.489293] (-) TimerEvent: {}
+[10.589759] (-) TimerEvent: {}
+[10.692300] (-) TimerEvent: {}
+[10.793741] (-) TimerEvent: {}
+[10.905677] (-) TimerEvent: {}
+[11.011981] (-) TimerEvent: {}
+[11.137898] (-) TimerEvent: {}
+[11.387599] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[11.403616] (-) TimerEvent: {}
+[11.403813] (-) EventReactorShutdown: {}

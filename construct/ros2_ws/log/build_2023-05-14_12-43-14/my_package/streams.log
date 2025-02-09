@@ -1,0 +1,35 @@
+[0.813s] Invoking command in '/home/user/ros2_ws/build/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --uninstall --editable --build-directory /home/user/ros2_ws/build/my_package/build
+[1.148s] running develop
+[1.149s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.150s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.150s]   warnings.warn(
+[1.231s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.231s]   warnings.warn(
+[1.412s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --uninstall --editable --build-directory /home/user/ros2_ws/build/my_package/build
+[1.414s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --prefix /home/user/ros2_ws/install/my_package --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[1.748s] running egg_info
+[1.749s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.749s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.750s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.750s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.750s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.752s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.753s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.753s] running build
+[1.754s] running build_py
+[1.754s] running install
+[1.754s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.755s]   warnings.warn(
+[1.755s] running install_lib
+[1.756s] running install_data
+[1.757s] running install_egg_info
+[1.759s] removing '/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.760s] Copying ../../build/my_package/my_package.egg-info to /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.761s] running install_scripts
+[1.790s] Installing control_turtle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.790s] Installing draw_circle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.790s] Installing first_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.790s] Installing pose_subscriber script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.791s] writing list of installed files to '/home/user/ros2_ws/build/my_package/install.log'
+[1.819s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --prefix /home/user/ros2_ws/install/my_package --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed

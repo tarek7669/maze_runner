@@ -1,0 +1,29 @@
+[2.764s] Invoking command in '/home/user/build/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --editable --build-directory /home/user/build/my_package/build --no-deps install_data --install-dir /home/user/install/my_package
+[3.681s] running develop
+[3.688s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.688s]   warnings.warn(
+[3.688s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.688s]   warnings.warn(
+[3.911s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.911s]   warnings.warn(
+[4.286s] running egg_info
+[4.287s] writing my_package.egg-info/PKG-INFO
+[4.287s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[4.354s] writing entry points to my_package.egg-info/entry_points.txt
+[4.354s] writing requirements to my_package.egg-info/requires.txt
+[4.354s] writing top-level names to my_package.egg-info/top_level.txt
+[4.354s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[4.355s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[4.355s] running build_ext
+[4.355s] Creating /home/user/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[4.355s] Installing control_turtle script to /home/user/install/my_package/lib/my_package
+[4.355s] Installing draw_circle script to /home/user/install/my_package/lib/my_package
+[4.356s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[4.362s] Installing go_to_goal script to /home/user/install/my_package/lib/my_package
+[4.363s] Installing goal_navigator script to /home/user/install/my_package/lib/my_package
+[4.363s] Installing pose_subscriber script to /home/user/install/my_package/lib/my_package
+[4.364s] Installing project_node script to /home/user/install/my_package/lib/my_package
+[4.364s] 
+[4.364s] Installed /home/user/build/my_package
+[4.365s] running install_data
+[4.493s] Invoked command in '/home/user/build/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --editable --build-directory /home/user/build/my_package/build --no-deps install_data --install-dir /home/user/install/my_package

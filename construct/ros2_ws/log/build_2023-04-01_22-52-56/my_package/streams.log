@@ -1,0 +1,47 @@
+[0.886s] Invoking command in '/home/user/ros2_ws/build/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --uninstall --editable --build-directory /home/user/ros2_ws/build/my_package/build
+[1.242s] running develop
+[1.243s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.243s]   warnings.warn(
+[1.245s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.245s]   warnings.warn(
+[1.332s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.332s]   warnings.warn(
+[1.491s] Removing /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[1.519s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --uninstall --editable --build-directory /home/user/ros2_ws/build/my_package/build
+[1.521s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --prefix /home/user/ros2_ws/install/my_package --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[1.858s] running egg_info
+[1.859s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.859s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.859s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.860s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.860s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.862s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.863s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.863s] running build
+[1.863s] running build_py
+[1.863s] copying my_package/control_turtle.py -> /home/user/ros2_ws/build/my_package/build/lib/my_package
+[1.864s] running install
+[1.864s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.864s]   warnings.warn(
+[1.865s] running install_lib
+[1.865s] creating /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.866s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/control_turtle.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.866s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.866s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/draw_circle.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.867s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/first_node.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.867s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/pose_subscriber.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.867s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/control_turtle.py to control_turtle.cpython-310.pyc
+[1.868s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[1.868s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/draw_circle.py to draw_circle.cpython-310.pyc
+[1.869s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/first_node.py to first_node.cpython-310.pyc
+[1.869s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[1.869s] running install_data
+[1.870s] running install_egg_info
+[1.872s] Copying ../../build/my_package/my_package.egg-info to /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.873s] running install_scripts
+[1.899s] Installing control_turtle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.899s] Installing draw_circle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.900s] Installing first_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.900s] Installing pose_subscriber script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.900s] writing list of installed files to '/home/user/ros2_ws/build/my_package/install.log'
+[1.926s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --prefix /home/user/ros2_ws/install/my_package --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed

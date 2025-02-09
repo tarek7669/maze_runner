@@ -1,0 +1,39 @@
+[10.279s] Invoking command in '/home/user/build/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --uninstall --editable --build-directory /home/user/build/my_package/build
+[14.697s] running develop
+[14.697s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[14.697s]   warnings.warn(
+[14.700s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.700s]   warnings.warn(
+[15.411s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[15.411s]   warnings.warn(
+[16.826s] Invoked command in '/home/user/build/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --uninstall --editable --build-directory /home/user/build/my_package/build
+[16.826s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed
+[18.817s] running egg_info
+[18.874s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[18.875s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[18.876s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[18.876s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[18.877s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[18.882s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[18.885s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[18.885s] running build
+[18.886s] running build_py
+[18.888s] running install
+[18.888s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[18.889s]   warnings.warn(
+[18.893s] running install_lib
+[18.898s] running install_data
+[18.901s] copying package.xml -> /home/user/install/my_package/share/my_package
+[18.904s] running install_egg_info
+[18.909s] removing '/home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[18.910s] Copying ../../../build/my_package/my_package.egg-info to /home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[19.005s] running install_scripts
+[19.174s] Installing control_turtle script to /home/user/install/my_package/lib/my_package
+[19.174s] Installing draw_circle script to /home/user/install/my_package/lib/my_package
+[19.174s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[19.174s] Installing go_to_goal script to /home/user/install/my_package/lib/my_package
+[19.174s] Installing goal_navigator script to /home/user/install/my_package/lib/my_package
+[19.174s] Installing pose_subscriber script to /home/user/install/my_package/lib/my_package
+[19.175s] Installing project_node script to /home/user/install/my_package/lib/my_package
+[19.175s] writing list of installed files to '/home/user/build/my_package/install.log'
+[19.314s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed

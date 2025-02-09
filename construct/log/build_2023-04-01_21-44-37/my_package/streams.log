@@ -1,0 +1,39 @@
+[0.830s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed
+[1.143s] running egg_info
+[1.144s] creating ../../../build/my_package/my_package.egg-info
+[1.144s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[1.145s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[1.145s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.147s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] creating /home/user/build/my_package/build
+[1.148s] creating /home/user/build/my_package/build/lib
+[1.148s] creating /home/user/build/my_package/build/lib/my_package
+[1.149s] copying my_package/__init__.py -> /home/user/build/my_package/build/lib/my_package
+[1.149s] copying my_package/first_node.py -> /home/user/build/my_package/build/lib/my_package
+[1.149s] running install
+[1.149s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.149s] running install_lib
+[1.150s] creating /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[1.150s] copying /home/user/build/my_package/build/lib/my_package/__init__.py -> /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[1.150s] copying /home/user/build/my_package/build/lib/my_package/first_node.py -> /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[1.151s] byte-compiling /home/user/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[1.151s] byte-compiling /home/user/install/my_package/lib/python3.10/site-packages/my_package/first_node.py to first_node.cpython-310.pyc
+[1.151s] running install_data
+[1.152s] creating /home/user/install/my_package/share/ament_index
+[1.152s] creating /home/user/install/my_package/share/ament_index/resource_index
+[1.152s] creating /home/user/install/my_package/share/ament_index/resource_index/packages
+[1.153s] copying resource/my_package -> /home/user/install/my_package/share/ament_index/resource_index/packages
+[1.153s] copying package.xml -> /home/user/install/my_package/share/my_package
+[1.153s] running install_egg_info
+[1.154s] Copying ../../../build/my_package/my_package.egg-info to /home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.156s] running install_scripts
+[1.180s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[1.180s] writing list of installed files to '/home/user/build/my_package/install.log'
+[1.205s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed

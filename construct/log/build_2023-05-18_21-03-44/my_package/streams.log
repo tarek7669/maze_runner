@@ -1,0 +1,26 @@
+[1.574s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed
+[2.100s] running egg_info
+[2.102s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[2.102s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.102s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[2.103s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[2.103s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[2.106s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.111s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.111s] running build
+[2.111s] running build_py
+[2.112s] running install
+[2.112s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.113s]   warnings.warn(
+[2.113s] running install_lib
+[2.115s] running install_data
+[2.116s] running install_egg_info
+[2.119s] removing '/home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.120s] Copying ../../../build/my_package/my_package.egg-info to /home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.124s] running install_scripts
+[2.163s] Installing control_turtle script to /home/user/install/my_package/lib/my_package
+[2.163s] Installing draw_circle script to /home/user/install/my_package/lib/my_package
+[2.164s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[2.164s] Installing pose_subscriber script to /home/user/install/my_package/lib/my_package
+[2.164s] writing list of installed files to '/home/user/build/my_package/install.log'
+[2.210s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed

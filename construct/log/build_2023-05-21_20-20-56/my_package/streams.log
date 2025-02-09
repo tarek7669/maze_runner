@@ -1,0 +1,38 @@
+[2.428s] Invoking command in '/home/user/build/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --uninstall --editable --build-directory /home/user/build/my_package/build
+[3.113s] running develop
+[3.113s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.113s]   warnings.warn(
+[3.113s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.113s]   warnings.warn(
+[3.253s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.253s]   warnings.warn(
+[3.565s] Invoked command in '/home/user/build/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/install/my_package --uninstall --editable --build-directory /home/user/build/my_package/build
+[3.566s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed
+[4.081s] running egg_info
+[4.083s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[4.083s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[4.084s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[4.084s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[4.084s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[4.088s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.089s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.090s] running build
+[4.090s] running build_py
+[4.090s] running install
+[4.091s] running install_lib
+[4.093s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.093s]   warnings.warn(
+[4.095s] running install_data
+[4.095s] running install_egg_info
+[4.098s] removing '/home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[4.099s] Copying ../../../build/my_package/my_package.egg-info to /home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[4.101s] running install_scripts
+[4.141s] Installing control_turtle script to /home/user/install/my_package/lib/my_package
+[4.141s] Installing draw_circle script to /home/user/install/my_package/lib/my_package
+[4.142s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[4.142s] Installing go_to_goal script to /home/user/install/my_package/lib/my_package
+[4.142s] Installing goal_navigator script to /home/user/install/my_package/lib/my_package
+[4.143s] Installing pose_subscriber script to /home/user/install/my_package/lib/my_package
+[4.143s] Installing project_node script to /home/user/install/my_package/lib/my_package
+[4.143s] writing list of installed files to '/home/user/build/my_package/install.log'
+[4.204s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed

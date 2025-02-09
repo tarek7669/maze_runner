@@ -1,0 +1,9 @@
+[console_scripts]
+control_turtle = my_package.control_turtle:main
+draw_circle = my_package.draw_circle:main
+first_node = my_package.first_node:main
+go_to_goal = my_package.go_to_goal:main
+goal_navigator = my_package.goal_navigator:main
+pose_subscriber = my_package.pose_subscriber:main
+project_node = my_package.project_node:main
+

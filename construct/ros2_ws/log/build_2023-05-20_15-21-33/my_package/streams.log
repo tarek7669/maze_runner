@@ -1,0 +1,28 @@
+[6.623s] Invoking command in '/home/user/ros2_ws/build/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --editable --build-directory /home/user/ros2_ws/build/my_package/build --no-deps install_data --install-dir /home/user/ros2_ws/install/my_package
+[8.599s] running develop
+[8.600s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.600s]   warnings.warn(
+[8.603s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.603s]   warnings.warn(
+[10.194s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[10.194s]   warnings.warn(
+[10.916s] running egg_info
+[10.917s] writing my_package.egg-info/PKG-INFO
+[10.918s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[10.985s] writing entry points to my_package.egg-info/entry_points.txt
+[10.985s] writing requirements to my_package.egg-info/requires.txt
+[10.989s] writing top-level names to my_package.egg-info/top_level.txt
+[10.996s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[11.006s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[11.085s] running build_ext
+[11.086s] Creating /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[11.088s] Installing control_turtle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.096s] Installing draw_circle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.096s] Installing first_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.096s] Installing go_to_goal script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.098s] Installing pose_subscriber script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.100s] Installing project_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[11.102s] 
+[11.102s] Installed /home/user/ros2_ws/build/my_package
+[11.103s] running install_data
+[11.785s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --editable --build-directory /home/user/ros2_ws/build/my_package/build --no-deps install_data --install-dir /home/user/ros2_ws/install/my_package

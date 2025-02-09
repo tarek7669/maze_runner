@@ -1,0 +1,39 @@
+[7.379s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed
+[9.506s] running egg_info
+[9.507s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[9.507s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[9.508s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[9.508s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[9.508s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[9.579s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.586s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.586s] running build
+[9.586s] running build_py
+[9.587s] copying my_package/control_turtle.py -> /home/user/build/my_package/build/lib/my_package
+[9.587s] copying my_package/draw_circle.py -> /home/user/build/my_package/build/lib/my_package
+[9.587s] copying my_package/first_node.py -> /home/user/build/my_package/build/lib/my_package
+[9.588s] running install
+[9.588s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.591s]   warnings.warn(
+[9.595s] running install_lib
+[9.603s] copying /home/user/build/my_package/build/lib/my_package/control_turtle.py -> /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[9.603s] copying /home/user/build/my_package/build/lib/my_package/draw_circle.py -> /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[9.604s] copying /home/user/build/my_package/build/lib/my_package/first_node.py -> /home/user/install/my_package/lib/python3.10/site-packages/my_package
+[9.604s] byte-compiling /home/user/install/my_package/lib/python3.10/site-packages/my_package/control_turtle.py to control_turtle.cpython-310.pyc
+[9.611s] byte-compiling /home/user/install/my_package/lib/python3.10/site-packages/my_package/draw_circle.py to draw_circle.cpython-310.pyc
+[9.681s] byte-compiling /home/user/install/my_package/lib/python3.10/site-packages/my_package/first_node.py to first_node.cpython-310.pyc
+[9.681s] running install_data
+[9.683s] creating /home/user/install/my_package/share/my_package/launch
+[9.684s] copying launch/rviz.launch.py -> /home/user/install/my_package/share/my_package/launch
+[9.688s] creating /home/user/install/my_package/share/my_package/urdf
+[9.688s] copying urdf/bot.urdf -> /home/user/install/my_package/share/my_package/urdf
+[9.697s] running install_egg_info
+[9.781s] removing '/home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[9.782s] Copying ../../../build/my_package/my_package.egg-info to /home/user/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[9.786s] running install_scripts
+[10.493s] Installing control_turtle script to /home/user/install/my_package/lib/my_package
+[10.501s] Installing draw_circle script to /home/user/install/my_package/lib/my_package
+[10.502s] Installing first_node script to /home/user/install/my_package/lib/my_package
+[10.502s] Installing pose_subscriber script to /home/user/install/my_package/lib/my_package
+[10.503s] writing list of installed files to '/home/user/build/my_package/install.log'
+[10.614s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /home/user/build/my_package/build install --prefix /home/user/install/my_package --record /home/user/build/my_package/install.log --single-version-externally-managed

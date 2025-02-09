@@ -1,0 +1,28 @@
+[1.143s] Invoking command in '/home/user/ros2_ws/build/my_package': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --editable --build-directory /home/user/ros2_ws/build/my_package/build --no-deps install_data --install-dir /home/user/ros2_ws/install/my_package
+[1.582s] running develop
+[1.583s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.583s]   warnings.warn(
+[1.585s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.585s]   warnings.warn(
+[1.696s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.696s]   warnings.warn(
+[1.904s] running egg_info
+[1.904s] writing my_package.egg-info/PKG-INFO
+[1.905s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[1.906s] writing entry points to my_package.egg-info/entry_points.txt
+[1.906s] writing requirements to my_package.egg-info/requires.txt
+[1.906s] writing top-level names to my_package.egg-info/top_level.txt
+[1.909s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[1.911s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[1.914s] running build_ext
+[1.914s] Creating /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[1.916s] Installing control_turtle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.916s] Installing draw_circle script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.917s] Installing first_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.917s] Installing pose_subscriber script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.918s] Installing project_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[1.918s] 
+[1.918s] Installed /home/user/ros2_ws/build/my_package
+[1.918s] running install_data
+[1.919s] copying launch/rviz.launch.py -> /home/user/ros2_ws/install/my_package/share/my_package/launch
+[1.960s] Invoked command in '/home/user/ros2_ws/build/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py develop --prefix /home/user/ros2_ws/install/my_package --editable --build-directory /home/user/ros2_ws/build/my_package/build --no-deps install_data --install-dir /home/user/ros2_ws/install/my_package
